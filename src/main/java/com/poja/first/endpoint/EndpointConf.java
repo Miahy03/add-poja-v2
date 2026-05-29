@@ -20,5 +20,7 @@ public class EndpointConf {
     objectMapper.configure(WRITE_DATES_AS_TIMESTAMPS, false);
     objectMapper.findAndRegisterModules();
     return objectMapper;
+
+
   }
 }
